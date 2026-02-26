@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Recipe Card Blocks
  * Plugin URI: https://recipecard.io/
- * Description: Beautiful Recipe Plugin for Food Bloggers with Schema Markup for the new WordPress editor (Gutenberg).
+ * Description: Recipe Card Blocks with Schema Markup — create SEO-optimized recipes with Gutenberg, Elementor & AMP support.
  * Author: WPZOOM
  * Author URI: https://recipecard.io/
- * Version: 3.4.13
+ * Version: 3.4.14
  * Copyright: (c) 2021 WPZOOM
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html

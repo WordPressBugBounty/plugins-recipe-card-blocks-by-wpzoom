@@ -5,35 +5,36 @@ Tags: recipe, recipe card, recipes, recipe maker, schema
 Requires at least: 6.0
 Requires PHP: 7.4
 Tested up to: 6.9
-Stable tag: 3.4.13
+Stable tag: 3.4.14
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Beautiful Recipe Card Blocks for Food Bloggers with Schema Markup (JSON-LD) for the new WordPress editor (Gutenberg)
+Recipe Card Blocks with Schema Markup — create SEO-optimized recipes with Gutenberg, Elementor & AMP support
 
 == Description ==
 
 = The Ultimate WordPress Recipe Plugin for your Food Blog =
 
-Easily create and share mouthwatering recipes with Recipe Card Blocks. With its sleek design and intuitive features, it's never been easier to create professional-quality recipes on your website.
+Trusted by thousands of food bloggers to rank higher in Google with structured recipe data.
 
-10.000+ websites are getting more traffic from Google by adding food recipes using Recipe Card Blocks!
-
-
-👉 **New Website → [recipecard.io](https://recipecard.io)** *NEW!* 👈
-
-⭐️ **[Recipe Card Blocks PRO](https://recipecard.io)** *NOW AVAILABLE!* ⭐️
-
-📩 [Subscribe to our newsletter](https://recipecard.io/newsletter/) for updates
+**[Recipe Card Blocks](https://recipecard.io)** is a powerful WordPress recipe plugin that adds beautiful recipe cards to the **block editor & Elementor** to help you create SEO-optimized recipes on your food blog.
 
 [youtube https://www.youtube.com/watch?v=TehuLXQXNi8]
 
 🥑 **[View Demo](https://demo.recipecard.io/)** 🥑
 
+⭐️ **[Recipe Card Blocks PRO](https://recipecard.io)** ⭐️
+
+📩 [Subscribe to our newsletter](https://recipecard.io/newsletter/) for updates
 
 > Did you find this plugin helpful? Please consider [leaving a 5-star review](https://wordpress.org/support/plugin/recipe-card-blocks-by-wpzoom/reviews/).
 
-Inspired by our popular food blog theme [Foodica](https://www.wpzoom.com/themes/foodica/), **[Recipe Card Blocks](https://recipecard.io)** is a powerful WordPress recipe plugin that adds beautiful recipe cards to the new **block editor & Elementor** to help you create recipes easily on your food blog.
+= 📌 WHY RECIPE CARD BLOCKS? =
+
+* **Schema.org markup that Google reads** — get rich snippets with recipe name, image, ratings, and cook time directly in search results
+* **Works with Gutenberg, Elementor & AMP** — no lock-in to a single page builder
+* **AI Recipe Generator included for free** — [generate complete recipes with AI](https://recipecard.io/ai-recipe-generator/)
+* **Import from WP Recipe Maker** — switch in one click without losing your recipes
 
 = 📌 INCLUDED BLOCKS =
 
@@ -44,66 +45,57 @@ Inspired by our popular food blog theme [Foodica](https://www.wpzoom.com/themes/
 * **Nutrition Facts**
 * **Recipe Card Widget for Elementor**
 
+= 📌 FREE FEATURES =
 
-= 📌 FEATURES =
-
-* **Elementor Support**
-* **Structured Data Integration**
-* **[Generate recipes using AI](https://recipecard.io/ai-recipe-generator/) 🆕**
+* **AI Recipe Generator** 🆕
+* **Elementor Support** with dedicated recipe widget
+* **Schema.org Structured Data** (JSON-LD)
+* **3 Recipe Card Styles**
+* **Inline Structured Data Validator**
 * **AMP Support**
-* **Multiple Designs**
-* Gutenberg-ready
-* Works with any theme
-* Import recipes from WP Recipe Maker
-* Video integration
-* GDPR-compliant
 * Bulk Add Ingredients and Directions
+* Video integration
+* Import recipes from WP Recipe Maker
 * WPML Support
 * Recipe Shortcode
+* Works with any theme
+* GDPR-compliant
 
 
 = ⭐️ PRO FEATURES ⭐️ =
-* **Star Rating**
-* **Unit Conversion (US - Metric) - 🆕**
-* **Comments Rating**
-* **Recipe Submissions - 🆕**
-* **Recipe Roundup - 🆕**
-* **Recipe Index - 🆕**
-* **Equipment**
-* **Cook Mode**
-* **Gallery in Directions**
-* **Multiple Styles**
-* Adjustable servings
-* Ingredients quantity
-* Custom Pinterest image and description for Pin
-* Color Schemes
-* Food Labels - 🆕
-* Social Call-to-action (Facebook, Instagram, Pinterest)
-* Premium Support
-* and many new features coming soon!
+
+**Boost your SEO & Traffic:**
+
+* **Star Rating** — display star ratings in Google search results
+* **Recipe Index Block** — searchable recipe catalog that keeps visitors on your site
+* **Recipe Roundups** 🆕 — curate themed recipe collections that rank for long-tail keywords
+
+**Engage your readers:**
+
+* **Adjustable Servings** — readers scale ingredient quantities in real-time
+* **Unit Conversion (US ↔ Metric)** 🆕 — switch between measurement systems with one click
+* **Cook Mode** — keeps the screen awake while cooking
+* **Comments Rating** — readers rate recipes directly in comments
+
+**Grow your blog:**
+
+* **Recipe Submissions** 🆕 — accept user-submitted recipes
+* **WooCommerce Integration** 🆕
+* **Grow.me Save Recipe Button** 🆕
+* **Social Call-to-action** (Facebook, Instagram, Pinterest)
+* **Advanced Pinterest Settings** — custom Pin image & description
+
+**Professional design:**
+
+* **5 Recipe Card Styles** (vs 3 in free)
+* **4 Color Schemes + Unlimited Custom Colors**
+* **Equipment Block** — showcase tools needed for each recipe
+* **Image Gallery & Lightbox in Directions**
+* **Food Labels** 🆕
+* **Print Preview** with customizable credit text
+* **Premium Support**
 
 ⭐️ **[Get the PRO version!](https://recipecard.io)** ⭐️
-
-
-= 📌 WHAT'S NEW IN 3.0? =
-* You can now view all your recipes created using Recipe Card Blocks on the All Recipes page. Managing your recipes or adding new ones has become much easier!
-* Added a new tool to collect all recipes from all posts and organize them in the new Recipes section
-
-= 📌 WHAT'S NEW IN 2.3? =
-* Added **Video Recipe** feature in the block
-* Numerous changes and improvements; new admin menu
-
-= 📌 WHAT'S NEW IN 2.1? =
-* New Feature: Ingredients and Directions **Groups**: you can now organize in **sub-sections** ingredients and directions
-* New Feature: **Bulk Add**. You can add ingredients and directions by inserting more entries at once.
-
-= 📌 WHAT'S NEW IN 2.0? =
-* New Block with **Schema Markup**: **Recipe Card Block (schema.org)**
-* Now you can use a single block to create a recipe card. You don't have to add any more blocks like Ingredients or Directions separately.
-* **JSON-LD Schema Markup**
-* **2 Styles**
-* New Settings Page (Settings > WPZOOM Recipe Card)
-* You can now add Images in the Directions
 
 
 
@@ -165,6 +157,9 @@ Yes, our plugin includes an intuitive and easy-to-use tool that allows you to **
 
 == Changelog ==
 
+= 3.4.14 =
+* Minor bug fixes
+
 = 3.4.13 =
 * Bug fix with the recipe importer
 
@@ -223,4 +218,4 @@ Yes, our plugin includes an intuitive and easy-to-use tool that allows you to **
 * New: Import recipes from WP Recipe Maker
 * New: Create a Draft Post when creating a new recipe card post.
 
-[See changelog for all versions](https://plugins.svn.wordpress.org/social-icons-widget-by-wpzoom/trunk/changelog.txt).
+[See changelog for all versions](https://plugins.svn.wordpress.org/recipe-card-blocks-by-wpzoom/trunk/changelog.txt).
