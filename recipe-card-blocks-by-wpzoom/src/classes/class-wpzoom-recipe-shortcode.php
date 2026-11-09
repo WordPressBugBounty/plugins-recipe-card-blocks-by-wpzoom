@@ -70,13 +70,8 @@ if ( ! class_exists( 'WPZOOM_Recipe_Card_Shortcode' ) ) {
 				return '';	
 			}
 
-			$parentRecipe_ID = get_post_meta( $recipe_id, '_wpzoom_rcb_parent_post_id', true );
-			if( ! empty( $parentRecipe_ID ) && $parentRecipe_ID != get_the_ID() ) {
-				$i = $parentRecipe_ID;
-			}
-			else {
-				$i = $recipe_id;
-			}
+			// Where the embedded recipe's ratings are stored; also used for Print (3.7.0).
+			$i = WPZOOM_Recipe_Card_Block::resolve_rating_parent( intval( $recipe_id ) );
 
 			$recipe = get_post( intval( $recipe_id ) );
 
@@ -89,9 +84,12 @@ if ( ! class_exists( 'WPZOOM_Recipe_Card_Shortcode' ) ) {
 			}
 			
 			$output = '';
+			// The card rates under the recipe this shortcode shows (3.7.0, as PRO 7.5.0).
+			WPZOOM_Recipe_Card_Block::push_render_context( $i );
 			foreach( $blocks as $block ) {
 				$output .= render_block( $block );
 			}
+			WPZOOM_Recipe_Card_Block::pop_render_context();
 
 			return sprintf( 
 				'<div class="wpzoom-custom-recipe-card-post wpzoom-rcb-post-shortcode" data-parent-id="%3$d" data-recipe-post="%2$d">%1$s</div>',
